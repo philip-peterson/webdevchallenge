@@ -27,6 +27,9 @@ function App() {
   return (
     <S.Container>
       <S.HeadFrame style={{ visibility: loading ? 'hidden' : 'visible'}}>
+        <S.Image src={face} style={{ position: 'absolute', top: 0, left: 0, filter: 'blur(10px)' }} />
+        <S.Image src={face} style={{ position: 'absolute', top: 0, left: 0, filter: 'blur(10px)' }} />
+        <S.Image src={face} style={{ position: 'absolute', top: 0, left: 0, filter: 'blur(10px)' }} />
         <S.Image src={face} onLoad={onLoad} />
         <S.Image src={sunglasses}  onLoad={onLoad} style={{ position: 'absolute', top: 0, left: 0, opacity, }} />
       </S.HeadFrame>
